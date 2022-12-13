@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+.board {
+    width: 820px;
+    height: 820px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.block {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    font-size: 90px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid red;
+    background-color: green;
+    margin-right: 5px;
+    /* padding-top: 50px; */
+}
