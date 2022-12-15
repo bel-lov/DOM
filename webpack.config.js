@@ -4,6 +4,8 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
     mode: 'development',
+    context: __dirname + '/src',
+    entry: './index.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
         assetModuleFilename: 'assets/images/[name][ext]'
